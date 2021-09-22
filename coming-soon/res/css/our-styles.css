@@ -1,0 +1,79 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: #002D62;
+	font-family: sans-serif;
+}
+
+/*Global Style*/
+.text-white{
+	color: #fff;
+}
+
+
+/*End of my global styles*/
+
+
+/*Home Page Styling*/
+section#top-date{
+	background: gold;
+	color: #002D62;
+	font-size: 15px;
+	padding: 10px;
+	text-align: center;
+	font-weight: 900;
+}
+section#main-content{
+	text-align: center;
+	color: #fff;
+	padding-top: 20px;
+}
+section#main-content > div > h2{
+	font-weight: 900;
+	font-size: 50px;
+}
+section#main-content > div > h2 span{
+	color: gold;
+}
+section#main-content > div > p{
+	color: #ccc;
+}
+section#main-content hr{
+	width: 50%;
+}
+section#main-content > div > h1{
+	font-weight: 900;
+	font-size: 50px;
+	padding: 0;
+	margin: 0;
+}
+section#main-content  form input{
+	width: 25%;
+	padding: 10px;
+	border: 2px solid gold;
+	outline: none;
+	background: transparent;
+	color: gold;
+}
+section#main-content  form button{
+	background: gold;
+	color: #002D62;
+	border: 1px solid gold;
+	padding: 9px 30px;
+	font-weight: 900;
+	cursor: pointer;
+}
+section#footer{
+	background: #fff;
+	color: #002D62;
+	text-align: center;
+	padding: 0.75%;
+	font-weight: 900;
+	position: absolute;
+	bottom: 0;
+	width:98.5%;
+}
+
+
+/*End Of Home Page Styling*/
+
